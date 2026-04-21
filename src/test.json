@@ -1,0 +1,372 @@
+{
+    "_id": "695660eff265607feb47bda2",
+    "clientFK": "68a83e7699ec7ff4128600a2",
+    "selectedStakeholders": [
+        "client"
+    ],
+    "clientLifeInsuranceTotal": "$38,197",
+    "partnerLifeInsuranceTotal": "$1,500",
+    "clientTPDTotal": "$5,244",
+    "partnerTPDTotal": "$1,000",
+    "clientTraumaTotal": "$186",
+    "partnerTraumaTotal": "$0",
+    "clientIncomeProtectionTotal": "$12,123",
+    "partnerIncomeProtectionTotal": "$500",
+    "clientHasPersonalInsurance": "Yes",
+    "partnerHasPersonalInsurance": "Yes",
+    "partner": {
+        "PersonalInsurance": [
+            {
+                "lifeInsured": "",
+                "provider": "68b90ee2dd9aaadd027ab074",
+                "policyNo": 123,
+                "Owner": "partner",
+                "startDate": "2025-12-31T19:00:00.000Z",
+                "smoker": "No",
+                "life": "$500",
+                "LifeTPDTraumaDetails": {
+                    "traumaPlus": "No",
+                    "CPI": "No",
+                    "superlinked": "No",
+                    "life": "$500",
+                    "TPD": "$0",
+                    "trauma": "$0",
+                    "TPDDefinition": "Own",
+                    "premiumType": "Stepped"
+                },
+                "TPD": "$0",
+                "trauma": "$0",
+                "IP": "$0",
+                "IPDetails": {
+                    "CPI": "No",
+                    "increasingClaims": "No",
+                    "accidentOption": "No",
+                    "superlinked": "No",
+                    "monthlyAmount": "$0",
+                    "waitingPeriod": "30 Days",
+                    "benefitPeriod": "2 Years",
+                    "ownOccPeriod": "5 Years",
+                    "premiumType": "Stepped",
+                    "benefitType": "Agreed"
+                },
+                "premiums": "$4",
+                "premiumsDetails": {
+                    "life": "$1",
+                    "totalCost": "$4",
+                    "commissionPayable": "$0",
+                    "tpd": "$0",
+                    "trauma": "$0",
+                    "ip": "$0",
+                    "frequency": "4",
+                    "payeeOfPremiums": "Super Rollover",
+                    "paymentMethod": "Rollover"
+                },
+                "loadingExclusion": "No",
+                "loadingExclusionValue": "",
+                "loadingExclusiondescription": "",
+                "beneficiary": "No",
+                "beneficiariesArray": "",
+                "beneficiaryDetails": ""
+            }
+        ],
+        "numberOfPolicies": 0
+    },
+    "client": {
+        "PersonalInsurance": [
+            {
+                "lifeInsured": "",
+                "provider": "689d749779b70c3f1161e488",
+                "policyNo": 123,
+                "Owner": "client",
+                "startDate": "2025-12-31",
+                "smoker": "No",
+                "life": "$100",
+                "LifeTPDTraumaDetails": {
+                    "traumaPlus": "No",
+                    "CPI": "No",
+                    "superlinked": "No",
+                    "life": "$100",
+                    "TPD": "$1,000",
+                    "trauma": "$0",
+                    "premiumType": "Stepped",
+                    "TPDDefinition": "Any"
+                },
+                "TPD": "$1,000",
+                "trauma": "$0",
+                "IP": "$0",
+                "IPDetails": {
+                    "CPI": "Yes",
+                    "increasingClaims": "Yes",
+                    "accidentOption": "No",
+                    "superlinked": "No",
+                    "monthlyAmount": "$0",
+                    "waitingPeriod": "60 Days",
+                    "benefitPeriod": "5 Years",
+                    "ownOccPeriod": "To Age 60",
+                    "premiumType": "Level",
+                    "benefitType": "Agreed"
+                },
+                "premiums": "$110,046",
+                "premiumsDetails": {
+                    "tpd": "$5,000",
+                    "totalCost": "$110,046",
+                    "commissionPayable": "$25,311",
+                    "life": "$12,321",
+                    "trauma": "$20",
+                    "ip": "$1,000",
+                    "frequency": "6",
+                    "payeeOfPremiums": "SMSF",
+                    "paymentMethod": "Direct Debit",
+                    "commissionRate": "23.00%"
+                },
+                "loadingExclusion": "No",
+                "loadingExclusionValue": "",
+                "loadingExclusiondescription": "",
+                "beneficiary": "Yes",
+                "beneficiariesArray": "",
+                "beneficiaryDetails": {
+                    "beneficiaryArray": [
+                        {
+                            "relationshipStatus": "Financial Dependant",
+                            "beneficiaryName": "Your Estate",
+                            "DOB": "2026-02-04",
+                            "shareBenefit": "20.00%"
+                        },
+                        {
+                            "relationshipStatus": "Interdependant",
+                            "beneficiaryName": "Your Estate",
+                            "DOB": "2026-02-05",
+                            "shareBenefit": "80.00%"
+                        }
+                    ],
+                    "nominationType": "Binding (Lapsing)",
+                    "NumberOfMap": 2
+                }
+            },
+            {
+                "lifeInsured": "",
+                "provider": "689d749779b70c3f1161e488",
+                "policyNo": 552,
+                "Owner": "SMSF",
+                "startDate": "2025-12-31",
+                "smoker": "Yes",
+                "life": "$12,321",
+                "LifeTPDTraumaDetails": {
+                    "traumaPlus": "Yes",
+                    "CPI": "Yes",
+                    "superlinked": "Yes",
+                    "life": "$12,321",
+                    "TPD": "$122",
+                    "trauma": "$123",
+                    "premiumType": "Level",
+                    "TPDDefinition": "Any"
+                },
+                "TPD": "$122",
+                "trauma": "$123",
+                "IP": "$1,000",
+                "IPDetails": {
+                    "CPI": "No",
+                    "increasingClaims": "Yes",
+                    "accidentOption": "Yes",
+                    "superlinked": "No",
+                    "monthlyAmount": "$1,000",
+                    "waitingPeriod": "60 Days",
+                    "benefitPeriod": "To Age 60",
+                    "ownOccPeriod": "5 Years",
+                    "premiumType": "Stepped",
+                    "benefitType": "Agreed"
+                },
+                "premiums": "$42,052",
+                "premiumsDetails": {
+                    "life": "$12,321",
+                    "totalCost": "$42,052",
+                    "commissionPayable": "$9,252",
+                    "tpd": "$23",
+                    "trauma": "$20",
+                    "ip": "$4",
+                    "frequency": "4",
+                    "payeeOfPremiums": "Super Rollover",
+                    "paymentMethod": "Rollover",
+                    "commissionRate": "22.00%"
+                },
+                "loadingExclusion": "No",
+                "loadingExclusionValue": "",
+                "loadingExclusiondescription": "",
+                "beneficiary": "No",
+                "beneficiariesArray": "",
+                "beneficiaryDetails": ""
+            },
+            {
+                "lifeInsured": "",
+                "provider": "68b90ee2dd9aaadd027ab074",
+                "policyNo": 7778,
+                "Owner": "Super Trustees",
+                "startDate": "2025-12-31",
+                "smoker": "No",
+                "life": "$6,666",
+                "LifeTPDTraumaDetails": {
+                    "traumaPlus": "Yes",
+                    "CPI": "No",
+                    "superlinked": "Yes",
+                    "life": "$6,666",
+                    "TPD": "$122",
+                    "trauma": "$20",
+                    "premiumType": "Level",
+                    "TPDDefinition": "Any"
+                },
+                "TPD": "$122",
+                "trauma": "$20",
+                "IP": "$1,000",
+                "IPDetails": {
+                    "CPI": "Yes",
+                    "increasingClaims": "Yes",
+                    "accidentOption": "No",
+                    "superlinked": "No",
+                    "monthlyAmount": "$1,000",
+                    "waitingPeriod": "90 Days",
+                    "benefitPeriod": "To Age 60",
+                    "ownOccPeriod": "5 Years",
+                    "premiumType": "Stepped",
+                    "benefitType": "Agreed"
+                },
+                "premiums": "$126,348",
+                "premiumsDetails": {
+                    "life": "$12,321",
+                    "totalCost": "$126,348",
+                    "commissionPayable": "$27,797",
+                    "tpd": "$23",
+                    "trauma": "$20",
+                    "ip": "$23",
+                    "frequency": "12",
+                    "payeeOfPremiums": "Super Rollover",
+                    "paymentMethod": "Rollover",
+                    "commissionRate": "22.00%"
+                },
+                "loadingExclusion": "No",
+                "loadingExclusionValue": "",
+                "loadingExclusiondescription": "",
+                "beneficiary": "No",
+                "beneficiariesArray": "",
+                "beneficiaryDetails": ""
+            },
+            {
+                "lifeInsured": "",
+                "provider": "689d749779b70c3f1161e488",
+                "policyNo": 995,
+                "Owner": "Company (Pty Ltd)",
+                "startDate": "2025-12-31",
+                "smoker": "Yes",
+                "life": "$12,321",
+                "LifeTPDTraumaDetails": {
+                    "traumaPlus": "No",
+                    "CPI": "Yes",
+                    "superlinked": "Yes",
+                    "life": "$12,321",
+                    "TPD": "$1,500",
+                    "trauma": "$23",
+                    "premiumType": "Level",
+                    "TPDDefinition": "Own"
+                },
+                "TPD": "$1,500",
+                "trauma": "$23",
+                "IP": "$10,000",
+                "IPDetails": {
+                    "CPI": "No",
+                    "increasingClaims": "Yes",
+                    "accidentOption": "Yes",
+                    "superlinked": "No",
+                    "monthlyAmount": "$10,000",
+                    "waitingPeriod": "90 Days",
+                    "benefitPeriod": "To Age 60",
+                    "ownOccPeriod": "5 Years",
+                    "premiumType": "Stepped",
+                    "benefitType": "Agreed"
+                },
+                "premiums": "$126,144",
+                "premiumsDetails": {
+                    "life": "$12,321",
+                    "totalCost": "$126,144",
+                    "commissionPayable": "$27,752",
+                    "tpd": "$23",
+                    "trauma": "$0",
+                    "ip": "$23",
+                    "frequency": "12",
+                    "paymentMethod": "Rollover",
+                    "payeeOfPremiums": "Super Rollover",
+                    "commissionRate": "22.00%"
+                },
+                "loadingExclusion": "Yes",
+                "loadingExclusionValue": "",
+                "loadingExclusiondescription": "asdawdawdawd",
+                "beneficiary": "Yes",
+                "beneficiariesArray": "",
+                "beneficiaryDetails": {
+                    "beneficiaryArray": [
+                        {
+                            "relationshipStatus": "Spouse/De-facto",
+                            "beneficiaryName": "123",
+                            "DOB": "2026-02-04",
+                            "shareBenefit": "100.00%"
+                        }
+                    ],
+                    "nominationType": "Binding (Non-Lapsing)",
+                    "NumberOfMap": 1
+                }
+            },
+            {
+                "lifeInsured": "",
+                "provider": "68b90ee2dd9aaadd027ab074",
+                "policyNo": 335,
+                "Owner": "Family Trust",
+                "startDate": "2025-12-31",
+                "smoker": "No",
+                "life": "$6,666",
+                "LifeTPDTraumaDetails": {
+                    "traumaPlus": "Yes",
+                    "CPI": "No",
+                    "superlinked": "Yes",
+                    "life": "$6,666",
+                    "TPD": "$1,500",
+                    "trauma": "$20",
+                    "premiumType": "Stepped",
+                    "TPDDefinition": "Own"
+                },
+                "TPD": "$1,500",
+                "trauma": "$20",
+                "IP": "$100",
+                "IPDetails": {
+                    "CPI": "No",
+                    "increasingClaims": "Yes",
+                    "accidentOption": "No",
+                    "superlinked": "Yes",
+                    "monthlyAmount": "$100",
+                    "waitingPeriod": "60 Days",
+                    "benefitPeriod": "2 Years",
+                    "ownOccPeriod": "2 Years",
+                    "premiumType": "Stepped",
+                    "benefitType": "Indemnity"
+                },
+                "premiums": "$42,402",
+                "premiumsDetails": {
+                    "life": "$12,321",
+                    "totalCost": "$42,402",
+                    "commissionPayable": "$9,753",
+                    "tpd": "$23",
+                    "trauma": "$123",
+                    "ip": "$4",
+                    "frequency": "4",
+                    "payeeOfPremiums": "Super Rollover",
+                    "paymentMethod": "Rollover",
+                    "commissionRate": "23.00%"
+                },
+                "loadingExclusion": "No",
+                "loadingExclusionValue": "",
+                "loadingExclusiondescription": "",
+                "beneficiary": "No",
+                "beneficiariesArray": "",
+                "beneficiaryDetails": ""
+            }
+        ],
+        "numberOfPolicies": 0
+    }
+}

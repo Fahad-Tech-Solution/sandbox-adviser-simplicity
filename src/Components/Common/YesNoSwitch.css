@@ -1,0 +1,57 @@
+.yes-no-switch {
+  display: inline-flex;
+  align-items: stretch;
+  width: 100px;
+  min-width: 84px;
+  height: 25px;
+  background: #fff;
+  /* border: 1px solid #22c55e; */
+  border-radius: 6px;
+  overflow: hidden;
+  gap: 3px;
+}
+
+.yes-no-switch input[type="radio"] {
+  display: none;
+}
+
+.yes-no-switch__label {
+  width: 50%;
+  margin: 0;
+  cursor: pointer;
+  user-select: none;
+  background: #e5e7eb;
+  color: #374151;
+  border-radius: 6px;
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease;
+}
+
+.yes-no-switch__label span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.yes-no-switch input[type="radio"]:checked + .yes-no-switch__label {
+  background: #22c55e;
+  color: #fff;
+}
+
+.yes-no-switch input[type="radio"]:checked + .yes-no-switch__label span {
+  font-weight: 700;
+}
+
+.yes-no-switch.is-disabled {
+  opacity: 0.6;
+}
+
+.yes-no-switch.is-disabled .yes-no-switch__label {
+  cursor: not-allowed;
+}

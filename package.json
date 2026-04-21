@@ -1,0 +1,50 @@
+{
+  "name": "advisorsimplicity-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://fahad-tech-solution.github.io/sandbox-adviser-simplicity/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
+    "antd": "^6.3.4",
+    "antd-style": "^4.1.0",
+    "axios": "^1.13.6",
+    "bootstrap": "^5.3.8",
+    "browser-image-compression": "^2.0.2",
+    "docxtemplater": "^3.68.3",
+    "framer-motion": "^12.38.0",
+    "html-react-parser": "^5.2.17",
+    "jotai": "^2.19.0",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.7",
+    "pizzip": "^3.2.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-icons": "^5.6.0",
+    "react-router-dom": "^7.13.2",
+    "recharts": "^3.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@eslint/js": "^9.39.4",
+    "@rolldown/plugin-babel": "^0.2.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "gh-pages": "^6.3.0",
+    "globals": "^17.4.0",
+    "vite": "^8.0.1"
+  }
+}
